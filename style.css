@@ -132,6 +132,7 @@ nav{
      bottom: -10%;
      border-top: solid darkviolet 30px;
      border-left: solid darkviolet 30px;
+     transition: .2s all;
     
  }
 
