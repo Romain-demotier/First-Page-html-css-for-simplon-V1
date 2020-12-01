@@ -1,0 +1,145 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+
+html{
+    font-size: 70%;
+    position :relative;
+    font-family: arial;
+    background-color: olivedrab;
+    max-width: 100%;
+    overflow-y: hidden;
+    
+}
+
+h1{
+    font-size: 2,6rem;
+}
+
+h2{
+    font-size: 5rem;
+}
+
+h3{
+    font-size: 3rem;
+}
+
+h4{
+    font-size: 2,6rem;
+}
+
+li{
+    font-size: 2rem;
+}
+.the-header{
+    background-color:darkslategrey;
+    color: #FFEBCD;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #FFEBCD;
+}
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding : 2rem;
+}
+ nav ul {
+     display: flex;
+     flex : 1 1 40rem;
+     justify-content: space-around;
+     align-items: center;
+     list-style: none;
+ }
+
+ #logo{
+     flex : 2 1 40rem;
+     align-items: center;
+     padding: 2rem;
+ }
+
+ .git{
+    
+    
+     display: block;
+     margin: auto;
+     width: 15rem;
+     height: 6rem;
+     font-size: 2.5em;
+     position: absolute;
+     top: 70%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     padding: 0 15px;
+     color:black;
+     
+    
+ }
+
+ .git::before{
+     content: "";
+     position: absolute;
+     left: 0;
+     height: 100%;
+     width: 2px;
+     background-color:darkcyan;
+     z-index: -1;
+     transition: .2s all;
+ }
+
+ .git:hover::before{
+     width: 100%;
+ }
+
+ .git:hover{
+     color: #FFEBCD;
+ }
+
+ .aside{
+     
+     display: block;
+     margin-left: 10rem;
+     margin-top: 10rem;
+     height: 30rem;
+     width: 40rem;
+ }
+
+ .aside h1{
+     font-size: 2rem;
+ }
+
+ .aside ul li {
+     font-size: 1.5rem;
+     list-style: none;
+ }
+
+ 
+
+ #block1{
+     background-color: darkslategray;
+     width: 25rem;
+     height: 25rem;
+     position: absolute;
+     right: 0%;
+     bottom: -10%;
+     border-top: solid darkviolet 30px;
+     border-left: solid darkviolet 30px;
+    
+ }
+
+ #block1:hover{
+    border-top: solid darkviolet 90px;
+    border-left: solid darkviolet 90px;
+    transition: .2s all;
+ }
+
+
+
